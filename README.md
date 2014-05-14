@@ -12,7 +12,7 @@ Project Setup
 - Install Grunt command line interface
  - `sudo npm install -g grunt-cli`
 - For sourcemap support, SASS needs to be installed with the --pre flag
- - `gem install sass`
+ - `gem install sass --pre`
 - Clone and cd into the repo
  - `git clone https://github.com/damassi/smooth-scroll-test.git && cd smooth-scroll-test`
 - Then install Grunt task dependencies
