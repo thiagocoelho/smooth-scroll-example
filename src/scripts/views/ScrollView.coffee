@@ -5,7 +5,7 @@
  * and apply the result to a parallax container or typical webpage
  *
  * @author Christopher Pappas <chris@wintr.us>
- * @date   5.2.14
+ * @date   5.14.14
 ###
 
 template = require './scroll-template.hbs'
