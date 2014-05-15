@@ -1,7 +1,7 @@
 Smooth Page Scrolling Example
 =============================
 
-Queuing your scroll changes within requestAnimationFrame isn't what makes scrolling smooth, it's pre-processing your scroll position through an easing equasion.  By constantly updating the future scroll position by making sure that deltas to the y-position are normalized down into what will eventually be a zero, but over time, and then applying it to your container whenever the user scrolls, you'll achieve a nice ease, which can then be dispatched to each of your parallax layers or page.
+Queuing your scroll changes within requestAnimationFrame isn't what makes scrolling smooth, it's pre-processing your scroll position through an easing equasion.  By constantly updating the future scroll position by making sure that deltas to the y-position are normalized down into what will eventually be a zero over time, and then applying it to your container whenever the user scrolls, you'll achieve a nice ease, which can then be dispatched to each of your parallax layers or page.
 
 This repo illustrates the ability to intercept scroll events, pipe them through an easing equasion, and then apply them to a container.
 
